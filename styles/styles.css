@@ -192,9 +192,9 @@ footer p a:hover {
   margin-right: 1rem;
 }
 .social-media a:hover {
-  background-color: rgba(35, 76, 243, 0.95);
-  -webkit-transform: scale(1.1) translateY(-0.5rem);
-          transform: scale(1.1) translateY(-0.5rem);
+  background-color: rgba(35, 76, 243, 0.95) !important;
+  -webkit-transform: scale(1.1) translateY(-0.5rem) !important;
+          transform: scale(1.1) translateY(-0.5rem) !important;
 }
 .social-media.about-social {
   display: -webkit-box;
