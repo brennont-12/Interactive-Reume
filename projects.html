@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Projects - Brennon Tiensivu Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Brennon Tiensivu">
+    <meta name="description" content="A showcase of projects by Brennon Tiensivu, a Computer Science student at the University of Maine.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">Brennon</a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html" class="active">Projects</a>
+            <a href="blog.html">Blog</a>
+            <a href="mailto:brennon.tiensivu@maine.edu">Contact</a>
+        </nav>
+    </header>
+
+    <section class="projects">
+        <div class="projects-container">
+            <h1 class="projects-title">My Projects</h1>
+            <p class="projects-intro">A collection of my work, showcasing my skills and creativity in software development.</p>
+            
+            <div class="projects-list">
+                <div class="project-item">
+                    <h2>Task Management Service</h2>
+                    <p>The Task Management System is built using Flask, Redis, and Docker. It allows users to create, update, delete, and query tasks, as well as view task statistics on a dashboard. The system is designed to be modular, with separate services for task creation, querying, updating, and a dashboard for analytics.</p>
+                    <p>
+                        - Task Creation: Create new tasks with attributes like title, description, priority, due date, and status.
+                    </p>
+                    <p>
+                        - Task Querying: View all tasks, filter tasks by status or priority, and delete all tasks.
+                    </p>
+                    <p>
+                        - Task Updating: Update task details or delete individual tasks.
+                    </p>
+                    <p>
+                        - Dashboard: View task statistics, including total tasks, status distribution, and priority distribution.
+                    </p>
+                    <p>
+                        - Microservices Architecture: Each service (creation, query, update, dashboard) runs independently and communicates via APIs.
+                    </p>
+                    <p>
+                        - Redis Integration: Tasks are stored in Redis for fast and efficient data access.
+                    </p>
+                    <p>
+                        - Dockerized Deployment: All services are containerized using Docker for easy deployment and scalability.
+                    </p>
+                    <a href="https://github.com/brennont-12/Task-Managment-Service" class="read-more">View Project <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <div class="project-item">
+                    <h2>Traffic Sign Recognition</h2>
+                    <p>The Traffic Sign Recognition system is developed using Python, TensorFlow, and OpenCV. It is designed to identify and classify traffic signs from images or video streams, aiding in autonomous driving and traffic analysis.</p>
+                    <p>
+                        - Image Preprocessing: Utilizes OpenCV for resizing, normalization, and augmentation of input images.
+                    </p>
+                    <p>
+                        - Deep Learning Model: Employs a Convolutional Neural Network (CNN) built with TensorFlow for accurate sign classification.
+                    </p>
+                    <p>
+                        - Dataset: Trained on the German Traffic Sign Recognition Benchmark (GTSRB) dataset for robust performance.
+                    </p>
+                    <p>
+                        - Real-Time Detection: Capable of recognizing traffic signs in real-time video streams.
+                    </p>
+                    <p>
+                        - Application: Useful for autonomous vehicles, driver assistance systems, and traffic monitoring solutions.
+                    </p>
+                    <a href="https://github.com/brennont-12/TrafficSignRecognition" class="read-more">View Project <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Brennon Tiensivu. All rights reserved.</p>
+    </footer>
+</body>
+</html>
