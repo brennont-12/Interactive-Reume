@@ -68,7 +68,7 @@ header nav a {
   padding-bottom: 0.5rem;
 }
 header nav a:hover, header nav a.active {
-  color: rgba(35, 76, 243, 0.95);
+  color: rgba(15, 134, 253, 0.95);
   border-bottom: 3px solid;
 }
 
@@ -164,7 +164,7 @@ footer p a {
   text-decoration: underline;
 }
 footer p a:hover {
-  color: rgba(35, 76, 243, 0.95);
+  color: rgba(15, 134, 253, 0.95);
 }
 
 .social-media a {
@@ -179,7 +179,7 @@ footer p a:hover {
       -ms-flex-align: center;
           align-items: center;
   background-color: transparent;
-  border: 0.3rem solid rgba(35, 76, 243, 0.95);
+  border: 0.3rem solid rgba(15, 134, 253, 0.95);
   border-radius: 30px;
   padding: 0.8rem 2rem;
   margin: 3rem 1.5rem 3rem 0;
@@ -192,7 +192,7 @@ footer p a:hover {
   margin-right: 1rem;
 }
 .social-media a:hover {
-  background-color: rgba(35, 76, 243, 0.95) !important;
+  background-color: rgba(15, 134, 253, 0.95) !important;
   -webkit-transform: scale(1.1) translateY(-0.5rem) !important;
           transform: scale(1.1) translateY(-0.5rem) !important;
 }
@@ -246,7 +246,7 @@ footer p a:hover {
   font-size: 5rem;
   font-weight: 800;
   margin-bottom: 3rem;
-  color: rgba(35, 76, 243, 0.95);
+  color: rgba(15, 134, 253, 0.95);
 }
 .about-content {
   display: -webkit-box;
@@ -305,7 +305,7 @@ footer p a:hover {
   transition: 0.3s ease-in-out;
 }
 .skills .skill-category h3 {
-  color: rgba(35, 76, 243, 0.95);
+  color: rgba(15, 134, 253, 0.95);
 }
 .skills .skill-category ul {
   padding-left: 2rem;
@@ -384,7 +384,7 @@ footer p a:hover {
   font-size: 5rem;
   font-weight: 800;
   margin-bottom: 1rem;
-  color: rgba(35, 76, 243, 0.95);
+  color: rgba(15, 134, 253, 0.95);
 }
 .blog-intro {
   font-size: 2rem;
@@ -444,7 +444,7 @@ footer p a:hover {
 .projects .projects-container .projects-title {
   font-size: 4rem;
   font-weight: 800;
-  color: rgba(35, 76, 243, 0.95);
+  color: rgba(15, 134, 253, 0.95);
   margin-bottom: 2rem;
   margin-top: 4rem;
 }
@@ -478,7 +478,7 @@ footer p a:hover {
 .projects .projects-container .projects-list .project-item h2 {
   font-size: 2.4rem;
   font-weight: 700;
-  color: rgba(35, 76, 243, 0.95);
+  color: rgba(15, 134, 253, 0.95);
   margin-bottom: 1rem;
 }
 .projects .projects-container .projects-list .project-item p {
