@@ -486,6 +486,11 @@ footer p a:hover {
   color: #fff;
   margin-bottom: 2rem;
 }
+.projects .projects-container .projects-list .project-item img {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 1rem;
+}
 
 @-webkit-keyframes fadeIn {
   from {
